@@ -1,0 +1,3 @@
+F:\cmake\bin\cmake.exe -E rm -f CMakeFiles\algebra.dir/objects.a
+E:\mingw64\bin\ar.exe qc CMakeFiles\algebra.dir/objects.a @CMakeFiles\algebra.dir\objects1.rsp
+E:\mingw64\bin\gcc.exe -Wl,--whole-archive CMakeFiles\algebra.dir/objects.a -Wl,--no-whole-archive -o bin\algebra.exe -Wl,--out-implib,libalgebra.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\algebra.dir\linkLibs.rsp
